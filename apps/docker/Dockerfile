@@ -21,7 +21,7 @@ RUN apt-get install -y \
   unzip \
   gcc \
   libyaml-dev \
-  npm
+  npm install 14.21.3
 
 # replace shell with bash so we can source files
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
